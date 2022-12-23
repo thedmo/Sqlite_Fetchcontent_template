@@ -1,4 +1,0 @@
-D:/Dev/Tests/FetchContent/fetchContent_example/build/CMakeFiles/sqlite3_lib.dir
-D:/Dev/Tests/FetchContent/fetchContent_example/build/CMakeFiles/sqlite_fetchcontent.dir
-D:/Dev/Tests/FetchContent/fetchContent_example/build/CMakeFiles/ALL_BUILD.dir
-D:/Dev/Tests/FetchContent/fetchContent_example/build/CMakeFiles/ZERO_CHECK.dir
