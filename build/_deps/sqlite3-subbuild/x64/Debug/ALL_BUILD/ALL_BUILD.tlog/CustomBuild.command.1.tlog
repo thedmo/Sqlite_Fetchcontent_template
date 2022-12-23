@@ -1,0 +1,10 @@
+^D:\DEV\TESTS\FETCHCONTENT\FETCHCONTENT_EXAMPLE\BUILD\_DEPS\SQLITE3-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev/Tests/FetchContent/fetchContent_example/build/_deps/sqlite3-subbuild -BD:/Dev/Tests/FetchContent/fetchContent_example/build/_deps/sqlite3-subbuild --check-stamp-file D:/Dev/Tests/FetchContent/fetchContent_example/build/_deps/sqlite3-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
